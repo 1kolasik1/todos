@@ -8,8 +8,8 @@ export default class Todo extends React.Component {
       <div
         className={
           this.props.done
-            ? "flex  items-center bg-[#ffe4c4] text-green-700 border-solid border-4 mt-[5vh] w-full"
-            : "flex items-center border-solid border-4 mt-[5vh] w-full"
+            ? "flex  items-center bg-[#ffe4c4] text-green-700 border-solid border-4 mt-[5vh] w-full lg:w-4/6"
+            : "flex items-center border-solid border-4 mt-[5vh] w-full lg:w-4/6"
         }
       >
         <input
@@ -22,7 +22,7 @@ export default class Todo extends React.Component {
           checked={this.props.done}
           onChange={this.handleCheck}
         />
-        <span className="text-2xl font-bold pl-[20px] sm:text-[12px]">
+        <span className="text-2xl font-bold pl-[20px] lg:text-[24px]">
           {this.props.name}
         </span>
         <button
