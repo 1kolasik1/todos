@@ -20,6 +20,6 @@ Node and NPM installed on your device
 
 ## Instalation
 
-Clone this repo
-Run ### `npm install` in cloned folder
-Run ### `npm start` to start local project
+* Clone this repo
+* Run `npm install` in cloned folder
+* Run `npm start` to start local project
