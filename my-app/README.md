@@ -2,6 +2,8 @@
 
 This project is basic example of todo list.
 
+![todos](./todo.gif)
+
 ## Technologies
 
 * React
